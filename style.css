@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+  background-image: linear-gradient(25deg, #4BE1EC, #6699FF);
+    } 
+.container{
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%, 0);
+}
+.input-container {
+  width: 400px;
+  padding: 2em;
+  background: #F14658;
+  border-radius: 0.2em;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.input-container h1 {
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  margin: 0.2em 0 0.4em 0;
+  font-size: 2.6em;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+#input {
+   align-items: center;
+   width: 200px;
+   padding: 0.7em 1em;
+   font-family: 'Satisfy', cursive;
+   font-size: 1.1em;
+   border-radius: 0.2em;
+   border: none;
+   outline: none;
+   box-shadow: inset;
+}
+#add-item {
+   padding: 0.7em 1em;
+   margin-left: 1.2em;
+   font-family: 'Satisfy', cursive;
+   font-size: 1.1em;
+   border-radius: 0.2em;
+   border: none;
+   outline: none;
+}
+.close {
+   cursor: pointer;
+   float: right;
+}
+.result-container ul {
+   width: 400px;
+}
+.result-container ul li {
+   list-style-type: none;
+   background: lightgray;
+   margin: 0.5em;
+   padding: 0.5em 1em;
+   font-family: 'Satisfy', cursive;
+   font-size: 1.1em;
+   border-radius: 0.2em;
+   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
